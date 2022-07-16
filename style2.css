@@ -1,0 +1,62 @@
+@font-face {
+    font-family: font_berita;
+    src: url(VisbyCF-Medium.otf);
+}
+
+@font-face {
+    font-family: font_artikel;
+    src: url(VisbyCF-Bold.otf);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: font_berita;
+}
+
+p{
+    font-family: font_artikel;
+}
+
+.tulisan-akun{
+    margin-bottom: 0px;
+}
+
+.kotak-login{
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+label{
+    font-size: 11pt;
+}
+
+.form-login{
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol-login{
+    background: #46de4b;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.tombol-login:hover{
+    cursor: pointer;
+}
